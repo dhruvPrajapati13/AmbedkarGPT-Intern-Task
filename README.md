@@ -6,7 +6,7 @@ The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using
 
 ---
 
-## 📌 Features
+## Features
 
 - Loads text from `speech.txt`
 - Splits text into small overlapping chunks
@@ -19,7 +19,7 @@ The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - main.py
 - requirements.txt
@@ -29,7 +29,7 @@ The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 - Python 3.8+
 - macOS / Linux / Windows (works best with macOS + Ollama)
@@ -37,7 +37,7 @@ The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### **1. Install Ollama**
 Download Ollama (Mac/Linux) from:
