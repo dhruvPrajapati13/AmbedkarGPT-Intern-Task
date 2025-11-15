@@ -40,27 +40,31 @@ The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using
 ## Installation & Setup
 
 ### **1. Install Ollama**
+
 Download Ollama (Mac/Linux) from:
 
 https://ollama.com/download
 
 Then pull the Mistral model:
-
+```bash
 ollama pull mistral
+```
 
 ### **2. Create Virtual environment**
-
+```bash
 python3 -m venv venv
 source venv/bin/activate   # macOS/Linux
+```
 
 ### 3. Install dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Run the Application
-
+```bash
 python main.py
-
+```
 
 
 
