@@ -46,7 +46,6 @@ https://ollama.com/download
 
 Then pull the Mistral model:
 
-```bash
 ollama pull mistral
 
 ### **2. Create Virtual environment**
