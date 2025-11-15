@@ -2,7 +2,7 @@
 
 This project is a simple **Retrieval-Augmented Generation (RAG)** system built as part of the **AI Intern Assignment** for Kalpit Pvt Ltd (UK).
 
-The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using **HuggingFace + ChromaDB**, and answers user questions using **Ollama (Mistral 7B)** through a command-line interface.
+The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using HuggingFace + ChromaDB, and answers user questions using Ollama (Mistral 7B) through a command-line interface.
 
 ---
 
@@ -11,10 +11,9 @@ The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using
 - Loads text from `speech.txt`
 - Splits text into small overlapping chunks
 - Generates embeddings using `sentence-transformers/all-MiniLM-L6-v2`
-- Stores embeddings in a local **ChromaDB** vector store
+- Stores embeddings in a local ChromaDB vector store
 - Retrieves relevant context using semantic similarity
-- Uses **Ollama's Mistral model** to generate answers
-- Fully offline and free to run
+- Uses Ollama's Mistral model to generate answers
 - Command-line Q&A interface
 
 ---
@@ -31,9 +30,9 @@ The system loads a speech by Dr. B. R. Ambedkar, creates vector embeddings using
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.10+
 - macOS / Linux / Windows (works best with macOS + Ollama)
-- Ollama with **Mistral 7B** installed
+- Ollama with Mistral 7B installed
 
 ---
 
